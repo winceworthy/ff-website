@@ -1,0 +1,12 @@
+title {color:#e7d426;text-align:center}
+body {text-align:center}
+ul {text-align:center}
+h1 {color: #e7c426}
+#linktable{background-color: blueviolet;font-size: 50px;}
+#linkcell{background-color: rgb(55, 34, 105);}
+table, td {background-color: #e7d426; border: 2px solid rgb(51, 4, 37)}
+table { margin-left: auto;margin-right: auto;}
+h1 {background-color: blueviolet;opacity:0.75;margin-top:10px;margin-left:200px;margin-right:200px}
+body{
+    background-image:url(black\ gold.webp);color: white
+}
