@@ -2,11 +2,27 @@ title {color:#e7d426;text-align:center}
 body {text-align:center}
 ul {text-align:center}
 h1 {color: #e7c426}
-#linktable{background-color: blueviolet;font-size: 50px;}
+
 #linkcell{background-color: rgb(55, 34, 105);}
 table, td {background-color: #e7d426; border: 2px solid rgb(51, 4, 37)}
-table { margin-left: auto;margin-right: auto;}
-h1 {background-color: blueviolet;opacity:0.75;margin-top:10px;margin-left:200px;margin-right:200px}
-body{
-    background-image:url(black\ gold.webp);color: white
+h1 {background-color: blueviolet;opacity:0.75;}
+body{background-image:url(black\ gold.webp);color: white}
+h2{background-color: rgb(79, 5, 197);}
+p{text-align: center;}  
+
+
+@media (min-width:500px) {
+    table { margin-left: auto;margin-right: auto;} 
+    #bio{margin-left: 400px;margin-right: 200px;font-size:20px;width:800px;border: 2px solid goldenrod}
+    #links{margin-right: 10px;margin-top:-30px;float:right}
+    #linktable{background-color: blueviolet;font-size: 50px;}
+}@media (max-width:500px) {
+    div {float:left}
+    h1{text-align:center;}
+    #bio{margin-left: 5px;margin-right: auto;font-size:15px;width:220px;border: 2px solid goldenrod;padding:20px}
+    #nav{font-size:25px;text-align:center}
+    #links{width:100px}
+    #linktable{background-color: blueviolet;font-size:25px;}
 }
+
+
