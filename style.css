@@ -13,13 +13,13 @@ p{text-align: center;}
 
 @media (min-width:500px) {
     table { margin-left: auto;margin-right: auto;} 
-    #bio{margin-left: 400px;margin-right: 200px;font-size:20px;width:800px;border: 2px solid goldenrod}
-    #links{margin-right: 10px;margin-top:-30px;float:right}
+    #bio{margin-left: auto;margin-right: auto;font-size:20px;width:800px;border: 2px solid goldenrod}
+    #links{margin-right: 10px;margin-top:20px;float:right}
     #linktable{background-color: blueviolet;font-size: 50px;}
 }@media (max-width:500px) {
     div {float:left}
     h1{text-align:center;}
-    #bio{margin-left: 5px;margin-right: auto;font-size:15px;width:220px;border: 2px solid goldenrod;padding:20px}
+    #bio{margin-left: auto;margin-right: auto;font-size:15px;width:220px;border: 2px solid goldenrod;padding:20px}
     #nav{font-size:25px;text-align:center}
     #links{width:100px}
     #linktable{background-color: blueviolet;font-size:25px;}
