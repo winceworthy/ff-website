@@ -12,16 +12,18 @@ p{text-align: center;}
 
 
 @media (min-width:500px) {
+    
     table { margin-left: auto;margin-right: auto;} 
-    #bio{margin-left: auto;margin-right: auto;font-size:20px;width:800px;border: 2px solid goldenrod}
-    #links{margin-right: 10px;margin-top:20px;float:right}
-    #linktable{background-color: blueviolet;font-size: 50px;}
+    #bio{margin-left: auto;margin-right: auto;font-size:20px;width:800px;}
+    #links{margin-right: auto;margin-top:-500px;width:30%;float:right;}
+    #mastofeed{margin-right:-500px}
+    #linktable{background-color: blueviolet;font-size: 50px;float:left}
 }@media (max-width:500px) {
-    div {float:left}
     h1{text-align:center;}
-    #bio{margin-left: auto;margin-right: auto;font-size:15px;width:220px;border: 2px solid goldenrod;padding:20px}
+    #bio{margin-left: auto;margin-right: auto;font-size:15px;width:220px;padding:20px;float:left}
     #nav{font-size:25px;text-align:center}
-    #links{width:100px}
+    #links{width:100px;display:inline-block}
+    #mastofeed{width:70%}
     #linktable{background-color: blueviolet;font-size:25px;}
 }
 
