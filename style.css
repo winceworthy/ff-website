@@ -4,11 +4,13 @@ ul {text-align:center}
 h1 {color: #e7c426}
 
 #linkcell{background-color: rgb(55, 34, 105);}
-table, td {background-color: #e7d426; border: 2px solid rgb(51, 4, 37)}
-h1 {background-color: blueviolet;opacity:0.75;}
+#headcell{background-color:rgb(168, 112, 8)}
+table, td {background-color: #e7d426; border: 4px solid rgb(51, 4, 37); padding:3px}
+#photos {padding-top: 3%;background-color: rgba(61, 4, 99, 0.384);opacity:0.75;}
 body{background-image:url(black\ gold.webp);color: white}
 h2{background-color: rgb(79, 5, 197);}
 p{text-align: center;}  
+
 
 
 @media (min-width:500px) {
@@ -17,14 +19,14 @@ p{text-align: center;}
     #bio{margin-left: auto;margin-right: auto;font-size:20px;width:800px;}
     #links{margin-right: auto;margin-top:-500px;width:30%;float:right;}
     #mastofeed{margin-right:-500px}
-    #linktable{background-color: blueviolet;font-size: 50px;float:left}
+    #linktable{background-color: blueviolet;font-size: 50px;display:inline-block; margin-right: -200px;margin-top:800px}
 }@media (max-width:500px) {
     h1{text-align:center;}
     #bio{margin-left: auto;margin-right: auto;font-size:15px;width:220px;padding:20px;float:left}
     #nav{font-size:25px;text-align:center}
     #links{width:100px;display:inline-block}
     #mastofeed{width:70%}
-    #linktable{background-color: blueviolet;font-size:25px;}
+    #linktable{background-color: blueviolet;font-size:25px;display:inline-block}
 }
 
 
